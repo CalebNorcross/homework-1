@@ -1,1 +1,3 @@
 # homework-1
+
+I was tasked with refactoring the code to make it more semantic and to make sure that all links function on the page. I procceded to rename some of the html elements to give it more structure. I also reordered the css to make the elements more readable. I also renamed the title to make iot match the website. I also added and id to the search-engine-optimization to make the link function properly.

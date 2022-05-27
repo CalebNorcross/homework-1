@@ -1,30 +1,30 @@
-/**/
+/*Universal styling creating a zero padding and margin*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/**/
+/*Targets the body giving it color*/
 body {
     background-color: #d9dcd6;
 }
-/**/
+/*Targeting the header giving it padding, a font style, color and backround color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/**/
+/*Targets the h1 of the header giving it a font size and displaying in-line*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/**/
+/*Targets a section of the h1 giving it a color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-/**/
+/*Targets the header div class giving it a font syle, padding. margin and a font size*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,21 +32,21 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/**/
+/*Targets the unordered list of the header*/
 .header div ul {
     list-style-type: none;
 }
-/**/
+/*Targets the list items of the unordered list*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/**/
+/*Targets the anchors or links to different sections of the page*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/**/
+/*Gives the main page picture a height, width and position*/
 .hero {
     height: 800px;
     width: 100%;
@@ -55,23 +55,23 @@ a {
     background-size: cover;
     background-position: center;
 }
-/**/
+/*Creates a float-left class*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/**/
+/*Creates a float-right class*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/**/
+/*Gives the content class a width, margin, and display style*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/**/
+/*Gives the benefit class a padding, margin, width, height, font style, and color*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,55 +82,55 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/**/
+/*Gives the class a margin on bottom and color*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/**/
+/*Gives the h3 a margin on bottom and a text position*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/**/
+/*Gives the img a display type, margin, and max width*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/**/
+/*Gives the class a margin on bottom and color*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/**/
+/*Gives the h3 a margin on bottom and a text position*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/**/
+/*Gives the img a display type, margin, and max width*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/**/
+/*Gives the class a margin on bottom and color*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/**/
+/*Gives the h3 a margin on bottom and a text position*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/**/
+/*Gives the img a display type, margin, and max width*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/**/
+/*Gives the search engine optimization class a padding, margin, height, font style, and color*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -139,16 +139,16 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/**/
+/*Gives the search engine optimization img a height*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-/**/
+/*Gives the h2 a margin on the bottom and a font size*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/**/
+/*Gives the online reputation management class a padding, margin, height, font style, and color*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -157,16 +157,16 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/**/
+/*Gives the online reputation management img a height*/
 .online-reputation-management img {
     max-height: 200px;
 }
-/**/
+/*Gives the h2 a margin on the bottom and a font size*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/**/
+/*Gives the class a margin on the bottom, padding, height, font syle and color*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -175,23 +175,23 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/**/
+/*Gives the social media marketing img a height*/
 .social-media-marketing img {
     max-height: 200px;
 }
-/**/
+/*Gives the h2 a margin on the bottom and a font size*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/**/
+/*Gives the footer padding, font style, and text positioning*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/**/
+/*Targets the h2 section of the footer*/
 .footer h2 {
     font-size: 20px;
 }
